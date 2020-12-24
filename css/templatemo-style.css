@@ -60,6 +60,12 @@ html {
   padding-right: 15px;
   padding-left: 15px;
 }
+.col-md-8 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .col-12 {
   -ms-flex: 0 0 100%;
@@ -114,6 +120,25 @@ html {
   success: #ed4aba
   danger: #993332
 */
+
+
+#centrador{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+#imagen{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 
 .tm-btn {
   display: inline-block;
@@ -200,7 +225,7 @@ body {
 }
 
 .container {
-  background-color: #f5b5df;
+  background-color: #7dd4a0;
 }
 
 p, address {
