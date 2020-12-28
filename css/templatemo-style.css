@@ -1,8 +1,5 @@
 /*
 
-Simple House
-
-https://templatemo.com/tm-539-simple-house
 
 */
 
@@ -225,11 +222,11 @@ body {
 }
 
 .container {
-  background-color: #7dd4a0;
+  background-color: #4d9995;
 }
 
 p, address {
-  color: #626364;
+  color: black;
   line-height: 1.8;
 }
 
@@ -332,14 +329,14 @@ p, address {
 }
 
 .tm-nav-link {
-  color: white;
-  text-decoration: none;
+  color: #4d9995;
+  text-decoration: ;
   padding-bottom: 10px;
 }
 
 .tm-nav-link.active,
 .tm-nav-link:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #4d9995;
 }
 
 .tm-welcome-section {
@@ -395,6 +392,26 @@ p, address {
   }
 }
 
+.nav-item {
+  border-color: #FF58A3;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1px;
+  margin: 5px;
+}
+
+.nav-item :hover {
+  background-color: #FF58A3;
+}
+
+.nav-link {
+  color: #FF58A3;
+}
+
+.nav-link.actives {
+  border-bottom: 1px solid white;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .tm-gallery-page,
@@ -436,6 +453,24 @@ p, address {
   margin-bottom: 60px;
 }
 
+.tm-gallery-titles {
+  font-size: 12.3rem;
+  font-weight: 400;
+  color: #e815ba;
+  margin-bottom: 15px;
+}
+.tm-gallery-descriptions {
+  margin-bottom: 40px;
+
+  color: #e815ba;
+}
+
+.tm-gallery-prices {
+  font-size: 3.25rem;
+  color: #e815ba;
+  margin-bottom: 60px;
+}
+
 .tm-paging-links {
   text-align: center;
   margin-bottom: 40px;
@@ -444,7 +479,7 @@ p, address {
 .tm-paging-item {
   list-style: none;
   display: inline-block;
-  border: 1px solid #d11592;
+  border: 1px solid #a80873;
   margin: 7px;
 }
 
