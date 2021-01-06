@@ -6,6 +6,7 @@
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
   padding: 0;
+
 }
 
 a, button { transition: all 0.3s ease; }
@@ -15,6 +16,7 @@ a, button { transition: all 0.3s ease; }
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
+
 }
 
 *,
@@ -28,12 +30,14 @@ html {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .tm-container-inner,
 .tm-container-inner-2 {
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
 .row {
@@ -217,12 +221,12 @@ html {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
-  background-color: #ccc;
+  background-color: white;
   overflow-x: hidden;
 }
 
 .container {
-  background-color: #4d9995;
+  background-color: #3f9e6f;
 }
 
 p, address {
@@ -329,14 +333,16 @@ p, address {
 }
 
 .tm-nav-link {
-  color: #4d9995;
+  color: white;
   text-decoration: ;
   padding-bottom: 10px;
+
 }
 
 .tm-nav-link.active,
 .tm-nav-link:hover {
   border-bottom: 1px solid #4d9995;
+  background-color: #FE0CC4;
 }
 
 .tm-welcome-section {
@@ -405,13 +411,19 @@ p, address {
 }
 
 .nav-link {
-  color: #FF58A3;
+  color: white;
+  font-weight
 }
 
 .nav-link.actives {
-  border-bottom: 1px solid white;
-}
+  border-bottom: 1px solid red;
+  background-color: red;
 
+
+}
+.nav>li>a:hover {
+    background-color: #FF58A3;
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .tm-gallery-page,
@@ -429,17 +441,22 @@ p, address {
 }
 
 .tm-gallery-item {
-  max-width: 280px;
+max-width: 320px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .tm-gallery-img {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tm-gallery-title {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #1A6692;
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -449,7 +466,7 @@ p, address {
 
 .tm-gallery-price {
   font-size: 1.25rem;
-  color: #d11592;
+  color: #F411A9;
   margin-bottom: 60px;
 }
 
@@ -461,7 +478,6 @@ p, address {
 }
 .tm-gallery-descriptions {
   margin-bottom: 40px;
-
   color: #e815ba;
 }
 
@@ -479,7 +495,7 @@ p, address {
 .tm-paging-item {
   list-style: none;
   display: inline-block;
-  border: 1px solid #a80873;
+  border: 1px solid #f213ac;
   margin: 7px;
 }
 
@@ -489,14 +505,14 @@ p, address {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #f213ac;
+  color: #e846b5;
   background-color: transparent;
 }
 
 .tm-paging-link.active,
 .tm-paging-link:hover {
-  background-color: #e846b5;
-  color: white;
+  background-color: red;
+  color:red;
 }
 
 .tm-description-figure {
@@ -910,4 +926,36 @@ address {
 
 .panel p {
   padding: 5px 20px 30px;
+}
+
+
+/* for desktop */
+.btn-whatsapp{
+        display:block;
+        width:70px;
+        height:70px;
+        color#fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+}
+
+
+
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        left: 10px;
+        font-size: 22px;
+    }
 }
