@@ -226,7 +226,7 @@ body {
 }
 
 .container {
-  background-color: #3f9e6f;
+  background-color: #50DE9D;
 }
 
 p, address {
@@ -236,9 +236,10 @@ p, address {
 
 /* Set width and height in JS */
 .placeholder {
+  margin-top: 50px;
   width: 100%;
   min-height: 460px;
-  background-color: #556E5B;
+  background-color: #50DE9D;
 }
 
 .placeholder-2 {
@@ -270,7 +271,8 @@ p, address {
 
 .tm-header {
   position: absolute;
-  bottom: 0;
+
+  top: 0;
   left: 0;
   width: 100%;
   color: white;
@@ -289,6 +291,7 @@ p, address {
 
 .tm-site-logo {
   display: inline-block;
+
   margin-right: 5px;
 }
 
@@ -297,13 +300,14 @@ p, address {
 }
 
 .tm-site-title {
-  font-size: 2.2rem;
+  font-size: 4.2rem;
   font-weight: 400;
   margin-bottom: 5px;
+  margin-top: 10px
 }
 
 .tm-site-description {
-  font-size: 1.1rem;
+  font-size: 2.1rem;
   font-weight: 400;
 }
 
@@ -325,7 +329,7 @@ p, address {
   padding-left: 25px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: ) {
   .tm-nav-li {
     padding-right: 15px;
     padding-left: 15px;
@@ -335,7 +339,7 @@ p, address {
 .tm-nav-link {
   color: white;
   text-decoration: ;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 
 }
 
@@ -351,13 +355,15 @@ p, address {
 }
 
 .tm-section-title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 400;
   margin-bottom: 30px;
+  color: white;
 }
 
 .tm-gallery {
   margin-bottom: 80px;
+  color: white;con
 }
 
 .tm-gallery-page {
@@ -371,7 +377,7 @@ p, address {
 }
 
 .tm-gallery-description {
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .tm-section,
@@ -471,7 +477,7 @@ margin-right: auto;
 }
 
 .tm-gallery-titles {
-  font-size: 12.3rem;
+  font-size: 8.3rem;
   font-weight: 400;
   color: #e815ba;
   margin-bottom: 15px;
@@ -484,7 +490,7 @@ margin-right: auto;
 .tm-gallery-prices {
   font-size: 3.25rem;
   color: #e815ba;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .tm-paging-links {
@@ -755,6 +761,7 @@ margin-right: auto;
 }
 
 .form-control::-webkit-input-placeholder {
+
   color: #6c757d;
   opacity: 1;
 }
