@@ -291,7 +291,10 @@ p, address {
 
 .tm-site-logo {
   display: inline-block;
-
+  width:250px;
+  height:250px;
+  border-radius:150px;
+  
   margin-right: 5px;
 }
 
@@ -950,8 +953,13 @@ address {
         text-align:center;
         z-index:999;
 }
-
-
+/*imaen redonda */
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+}
 
 /* for mobile */
 @media screen and (max-width: 767px){
